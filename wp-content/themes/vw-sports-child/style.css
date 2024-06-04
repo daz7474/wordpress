@@ -21,6 +21,24 @@ nav {
   margin: 20px 0;
 }
 
+.page-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
+#content-vw a, .entry-content a, .widget_text a, .woocommerce-page .entry-summary a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wp-block-button__link {
+  border: 2px solid #151821;
+  border-radius: 0;
+  transform: skew(-20deg);
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -41,4 +59,8 @@ nav {
 .nav-previous,
 .nav-next {
   width: 100%;
+}
+
+input[type="submit"], input.button {
+  font-weight: normal;
 }
